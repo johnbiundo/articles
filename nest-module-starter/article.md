@@ -62,12 +62,17 @@ nestmod
 ### Build the package
 
 Take a moment to poke around in the `nestjs-module-starter` folder.  Here are a few things to notice:
+
 1) The `src` folder has two files:
-- `test.ts` is the entire functionality of our module; it exports our simple test function to show that we're using the module
+- `test.ts` is the entire functionality of our module; it exports our simple test function to show that we're using the module.
 - `index.ts` exports that function from the folder (it's a [barrel file](https://basarat.gitbooks.io/typescript/content/docs/tips/barrel.html)).
+
 2) The top level folder also has an `index.ts` file.  These are important, as collectively they control what gets exported as the public API of the package.
+
 3) The `.npmignore` file in the root folder is like `.gitignore`: it excludes files from the npm package.
+
 4) The `package.json` file has a bunch of interesting parts.  We'll delve into some of them later, but an important one to point out now is the scripts section.  In particular, `build` is where the magic happens. The combination of the build script, folder organization, and `tsconfig.json` file are what ensure that the package is built appropriately.
+
 5) The different types of dependencies are apparent: regular dependencies, peer dependencies, and dev dependencies.  We won't go into details here, but it's worth [reading up on these](https://nodejs.org/es/blog/npm/peer-dependencies/) to make sure you understand them.
 
 In terminal window 1, change to the folder where you cloned the nestjs-module-starter.
@@ -208,6 +213,6 @@ export class AppController {
 
 Fire up the app, and you'll be using your new package!
 
-Stay tuned for the next article in this series where we'll cover building a more interesting NestJS module.
+Now that you know how easy it is to publish an NPM package, stay tuned for the next articles in this series where we'll cover building more interesting NestJS modules.
 
 Feel free to ask questions, make comments or suggestions, or just say hello in the comments below.  And join us at [Discord](https://discord.gg/G7Qnnhy) for more happy discussions about NestJS.  I post there as *Y Prospect*.
