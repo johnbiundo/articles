@@ -177,10 +177,12 @@ In terminal window 1, run:
 npm publish
 ```
 
+<br/><br/>
 #### Search for your package on www.npmjs.com
 
-![seach-npmjs](https://thepracticaldev.s3.amazonaws.com/i/fel4thnhlt90fg4ld02h.png)
+![search-npmjs](https://thepracticaldev.s3.amazonaws.com/i/fel4thnhlt90fg4ld02h.png)
 
+<br/><br/>
 ### Install the published NPM package in your test app
 Now that the package is live on npm, you can install it as you would any package.
 
