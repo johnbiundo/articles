@@ -140,7 +140,7 @@ Now, make sure the test app is still running in dev mode (e.g., `npm run start:d
 ```bash
 npm run build
 ```
-
+![Dynamic Rebuild](https://thepracticaldev.s3.amazonaws.com/i/cd4ej6jmax30hvdzkjvj.gif)
 Notice that in terminal window 2, since we're linked to the local package, the dev server will restart several times as the package is rebuilt (typically showing errors for a few seconds until the process completes).  This highlights a key thing that you will almost certainly forget until it bites you: whenever you make local changes to the package, you must rebuild **before you publish it**.  It's really easy to forget that step - trust me! I have plenty of commits with the message "actually rebuild the module". :smiley:
 
 ### Publish the package
@@ -174,7 +174,7 @@ npm publish
 
 #### Search for your package on www.npmjs.com
 
-<image>
+![seach-npmjs](https://thepracticaldev.s3.amazonaws.com/i/fel4thnhlt90fg4ld02h.png)
 
 ### Install the published NPM package in your test app
 Now that the package is live on npm, you can install it as you would any package.
